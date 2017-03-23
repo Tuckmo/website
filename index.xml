@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mark Tuckey on Mark Tuckey</title>
+    <link>https://tuckmo.github.io/website/index.xml</link>
+    <description>Recent content in Mark Tuckey on Mark Tuckey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Mark Tuckey</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/website/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>First Post! </title>
+      <link>https://tuckmo.github.io/website/post/first-post/</link>
+      <pubDate>Sat, 18 Mar 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://tuckmo.github.io/website/post/first-post/</guid>
+      <description>&lt;p&gt;This website&amp;rsquo;s purpose is going to be used as my own personal project and blogging portal for all my web design and development endeavours, wherever that may take me. This may range from anything from Flask, Javascript applications to theme development(like the one I have modified to create this website), and other assorted works that keep me occupied.&lt;/p&gt;
+
+&lt;p&gt;This website was created using Hugo and is, at the time of this posting, using a modified version of the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; by George Cushen. I heard about Hugo from a university friend of mine, and decided to make my own website as I was lacking one at the time and had heard good things about its speed. I wanted to modify a theme for Hugo as it&amp;rsquo;s tutorials went into how to setup Hugo, but only used a theme for the presentation, which felt very lazy to me. I wanted to learn how the templates and theme creation worked, and be able to customize my own site at will rather than rely on someone to theme it.&lt;/p&gt;
+
+&lt;p&gt;I figured that the best way to learn and get a website up and running in a reasonable time was to try and port a theme from using bootstrap into something that had caught my eye recently, which is &lt;a href=&#34;http://materializecss.com/&#34; target=&#34;_blank&#34;&gt;Materialize&lt;/a&gt;. Materialize is a front-end CSS framework that is based upon Bootstrap, but uses Google&amp;rsquo;s Material Design look and feel.&lt;/p&gt;
+
+&lt;p&gt;Transposing from Bootstrap into Materialize turned out to be a great adventure as things didn&amp;rsquo;t line up with how they each worked, forcing me to learn how Hugo/Go templating works to figure out random bugs that popped up from time to time. While I am not by any means experienced with Hugo now, but have gotten my head around how the structure works, which I really enjoyed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AugProject</title>
+      <link>https://tuckmo.github.io/website/project/augProject/</link>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuckmo.github.io/website/project/augProject/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Material Academic Theme</title>
+      <link>https://tuckmo.github.io/website/project/example-external-project/</link>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuckmo.github.io/website/project/example-external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://tuckmo.github.io/website/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuckmo.github.io/website/talk/example-talk/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Article title here</title>
+      <link>https://tuckmo.github.io/website/about/about/</link>
+      <pubDate>Wed, 28 Sep 2016 17:00:00 +0900</pubDate>
+      
+      <guid>https://tuckmo.github.io/website/about/about/</guid>
+      <description>&lt;p&gt;Shor&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python Frameworks</title>
+      <link>https://tuckmo.github.io/website/post/python-frameworks/</link>
+      <pubDate>Fri, 12 Aug 2016 14:43:39 +1100</pubDate>
+      
+      <guid>https://tuckmo.github.io/website/post/python-frameworks/</guid>
+      <description>
+
+&lt;p&gt;Finding the right Python web framework can be hard task, if you simply search for “popular python web frameworks” you will be overwhelmed with choices. Often you will find lists like &lt;a href=&#34;https://www.linkedin.com/pulse/best-10-python-frameworks-web-development-elyn-z-6059523132912394240&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; or &lt;a href=&#34;http://www.developersfeed.com/best-python-frameworks-for-web-developers/&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt;.As someone who is still learning web development, choosing the right framework for particular projects is a very daunting task. There is no one framework that will be the best for every project, as they are each designed to have certain strengths and weaknesses. Sifting through the large amounts of suggested frameworks and their brief descriptions, &lt;a href=&#34;https://www.djangoproject.com/&#34; target=&#34;_blank&#34;&gt;Django&lt;/a&gt;, &lt;a href=&#34;http://flask.pocoo.org/&#34; target=&#34;_blank&#34;&gt;Flask&lt;/a&gt;, and &lt;a href=&#34;http://www.pylonsproject.org/&#34; target=&#34;_blank&#34;&gt;Pyramid&lt;/a&gt; all show up quite frequently. I will take a look into each of these, compare their strengths and weaknesses,what sized projects they are suited for, and their brief histories.&lt;/p&gt;
+
+&lt;h1 id=&#34;django-https-www-djangoproject-com-start-overview&#34;&gt;&lt;a href=&#34;https://www.djangoproject.com/start/overview/&#34; target=&#34;_blank&#34;&gt;Django&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Starting with Django is an easy choice, as it is probably the oldest web framework for Python, most likely the most popular and the largest as well. Django is an open-source web framework, that is designed around the model-view-controller(MVC) pattern. Django follows the example set by Python, wherein the &lt;a href=&#34;http://www.djangobook.com/en/2.0/chapter16.html&#34; target=&#34;_blank&#34;&gt;“batteries” are included with the program&lt;/a&gt;, meaning it comes with a large standard library of packages that can be used immediately, without the need to download everything else. This means that Django seeks to provide all the basic necessary tools that a developer will need to make a website.&lt;/p&gt;
+
+&lt;p&gt;Django was originally built inside an online newsroom to meet &lt;a href=&#34;https://www.djangoproject.com/start/overview/&#34; target=&#34;_blank&#34;&gt;“fast-moving newsroom deadlines, while satisfying the tough requirements of experienced web developers”&lt;/a&gt;.  This need came from the &lt;a href=&#34;http://www.djangobook.com/en/2.0/chapter01.html&#34; target=&#34;_blank&#34;&gt;designers having to create multiple applications quickly&lt;/a&gt;, that often shared many similar qualities to one another, so it was built as a time-saving framework that catered to their fast deadlines.  As a side effect of this, it’s features are suited for mid-large dynamic websites that are driven by databases, that need a lot of services. Examples of websites that use Django include &lt;a href=&#34;http://www.skilledup.com/articles/introduction-python-web-frameworks&#34; target=&#34;_blank&#34;&gt;The Washington Post, The Guardian, Pinterest, Instagram, The Onion&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Another strength of Django seems to lie in its history and popularity, being the oldest Python web framework and open source, it has garnered itself a &lt;a href=&#34;https://www.airpair.com/python/posts/django-flask-pyramid#3-community&#34; target=&#34;_blank&#34;&gt;large community&lt;/a&gt; and &lt;a href=&#34;https://docs.djangoproject.com/en/1.10/&#34; target=&#34;_blank&#34;&gt;excellent documentation&lt;/a&gt;. &lt;a href=&#34;http://blog.teamtreehouse.com/choose-django&#34; target=&#34;_blank&#34;&gt;Others&lt;/a&gt; reference Django’s having a wide availability of &lt;a href=&#34;https://djangopackages.org/&#34; target=&#34;_blank&#34;&gt;packages&lt;/a&gt; that can be included in your project. These points, along with its batteries included approach make it very easy for new developers to learn Django and quickly make apps and websites with it.&lt;/p&gt;
+
+&lt;p&gt;While the offering of a large suite is handy for websites that need lots of services, it might not be quite suitable for sites that are much simpler in design than what Django can power. It is often cited as being either &lt;a href=&#34;https://www.slant.co/topics/426/viewpoints/1/~general-purpose-python-web-frameworks-usable-in-production-sites~django#7&#34; target=&#34;_blank&#34;&gt;“too clunky”&lt;/a&gt; or &lt;a href=&#34;http://www.codingdojo.com/blog/choosing-python-web-frameworks/&#34; target=&#34;_blank&#34;&gt;“too much software”&lt;/a&gt; for small projects. This problem also manifests itself in the issue of flexibility. As Django is “batteries included” those batteries &lt;a href=&#34;http://www.brandonbloom.name/blog/2009/08/19/dropping-django/&#34; target=&#34;_blank&#34;&gt;might get in the way of development&lt;/a&gt; and choices towards databases, URL structure and more have already been made for you.&lt;/p&gt;
+
+&lt;h1 id=&#34;flask-http-flask-pocoo-org&#34;&gt;&lt;a href=&#34;http://flask.pocoo.org/&#34; target=&#34;_blank&#34;&gt;Flask&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Flask is a &lt;a href=&#34;http://flask.pocoo.org/docs/0.11/foreword/#what-does-micro-mean&#34; target=&#34;_blank&#34;&gt;microframework&lt;/a&gt; that intends to be flexible and used for simple projects. It started out as a simple April Fool’s joke from the developer making fun of &lt;a href=&#34;http://lucumr.pocoo.org/2010/4/3/april-1st-post-mortem/&#34; target=&#34;_blank&#34;&gt;microframeworks&lt;/a&gt;. The creator attributes this success to “people loving the idea of software that does not have dependencies and comes in a single file”.&lt;/p&gt;
+
+&lt;p&gt;Flask, as a micro framework, is a response to the challenges that full-stack frameworks present when they become large, over-bloated and unsuitable for small projects, creating too much overhead to do simple tasks. &lt;a href=&#34;https://blog.appdynamics.com/php/php-microframework-vs-full-stack-framework/&#34; target=&#34;_blank&#34;&gt;The aim of small frameworks is to do fewer things well&lt;/a&gt;, rather than full-stack frameworks doing many things, but not well.,&lt;/p&gt;
+
+&lt;p&gt;Being a microframework, the main idea of Flask is to let the developer make their own choices towards what features they need, or what they don’t. The &lt;a href=&#34;http://flask.pocoo.org/docs/0.11/foreword&#34; target=&#34;_blank&#34;&gt;Flask’s website&lt;/a&gt; states that it “does not include a database abstraction layer, form validation or anything else where different libraries exist that can handle that”. The aim of Flask is to provide basic functionality, simplicity and interchangeable extensions. Don’t like the templating engine? Change it. By offering &lt;a href=&#34;http://flask.pocoo.org/extensions/&#34; target=&#34;_blank&#34;&gt;good plugin support&lt;/a&gt; the developer has the flexibility to do what they like.&lt;/p&gt;
+
+&lt;h1 id=&#34;pyramid-https-trypyramid-com&#34;&gt;&lt;a href=&#34;https://trypyramid.com/&#34; target=&#34;_blank&#34;&gt;Pyramid&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Pyramid is a framework born from the merger of &lt;a href=&#34;https://en.wikipedia.org/wiki/Pylons_project&#34; target=&#34;_blank&#34;&gt;Pylons and repoze.bfg&lt;/a&gt;. &lt;a href=&#34;https://en.wikipedia.org/wiki/Pylons_project#Features&#34; target=&#34;_blank&#34;&gt;It is a minimalistic, platform-independent MVC object publishing framework&lt;/a&gt;.  Pylons was originally created to combine &lt;a href=&#34;http://www.pylonsproject.org/projects/pylons-framework/about&#34; target=&#34;_blank&#34;&gt;“the very best ideas from the worlds of Ruby, Python and Perl, providing a structured but extremely flexible Python web framework.”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pyramid sets itself apart from the other frameworks mentioned by trying to target the problems of of both Django and Flask, instead of focusing on small or large projects, it caters to both. In fact, it’s tagline is &lt;a href=&#34;https://trypyramid.com/&#34; target=&#34;_blank&#34;&gt;“The Start Small, Finish Big, Stay Finished Framework”&lt;/a&gt;. It aims to allow the developer to start quickly and gives the designer choice in choosing exactly add-ons they would like to add or even allows them to write their own. By doing this it forces the designer to make decisions about what types of components they want to use, and &lt;a href=&#34;https://www.codementor.io/python/tutorial/django-vs-pyramid-python-framework-comparison&#34; target=&#34;_blank&#34;&gt;gives them the flexibility&lt;/a&gt; to allow to swap them out as they please. Like many microframeworks, Pyramid can serve applications that live completely &lt;a href=&#34;http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/introduction.html#single-file-applications&#34; target=&#34;_blank&#34;&gt;inside one file&lt;/a&gt;. However it can be also be built into something much more complex by extending it with add ons.&lt;/p&gt;
+
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Web development, in some aspects, is no different from many other trades that use tools wherein there is no one perfect tool for every job that you will ever need to complete. Web frameworks are not separate from this, every tool that is used is better suited for different tasks. Django, with its “batteries included” approach is much more suited to mid to large content database-driven websites, but will be too cumbersome and heavy at a smaller scale. Whilst Flask is great for small projects, but if you want more features you’re going to have to search for them. Pyramid fits in the middle of this scale, providing the ability to produce small scale apps but also the power to extend into more complex applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Person Re-Identification System For Mobile Devices</title>
+      <link>https://tuckmo.github.io/website/publication/person-re-identification/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuckmo.github.io/website/publication/person-re-identification/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile visual clothing search</title>
+      <link>https://tuckmo.github.io/website/publication/clothing-search/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuckmo.github.io/website/publication/clothing-search/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
