@@ -16,24 +16,91 @@
       <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tuckmo.github.io/website/project/augProject/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://tuckmo.github.io/website/website/img/Augproject.png&#34; alt=&#34;Aug Project banner&#34; /&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://tuckmo.github.io/website/website/img/Augproject.png&#34; alt=&#34;Aug Project banner&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;AugProject was a project that I contributed to during my capstone unit &lt;a href=&#34;http://www.handbook.mq.edu.au/2017/Units/UGUnit/COMP356&#34; target=&#34;_blank&#34;&gt;COMP356&lt;/a&gt; for my Bachelor of Information Technology at Macquarie University.&lt;/p&gt;
+
+&lt;p&gt;The main goal of this project was to bring more awareness to the art located around Macquarie University by creating a augmented reality GPS tracking mobile application similar to Pokemon Go that allowed the users to visit art pieces and learn more about them inside a somewhat competitive game.&lt;/p&gt;
+
+&lt;p&gt;The basic functionality of this project was to create a educational scavenger like hunt across Macquarie University using the browser on mobile phones using GPS to locate mapped locations, tracking which ones had been visited or not. Upon finding these locations map markers would be generated on the Google Map to interact with, with the ability to pull up more information about the artist and object you had found, answer a question on the object that had been found or view the 3d model for that object.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately the app will only work with the GPS coordinates that are currently in the Google Sheet which are all located around Macquarie University. The best way to get an idea of the app is to either look at the documentation below or the presentation that we made at the end of the project.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1TatdKQbOZ26Zei9HziNvGGAzITgXEiiBe7GpeWK96dk/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Main Documentation and features of the program&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/andrewrd/augproject&#34; target=&#34;_blank&#34;&gt;Code Repository&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1pufZ__ZC1zZqgJfzzsaJFfi97H_cIe1riUIccszANQA/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Presentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1pufZ__ZC1zZqgJfzzsaJFfi97H_cIe1riUIccszANQA/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Final Presentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;App Contributors:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/andrewrd&#34; target=&#34;_blank&#34;&gt;Andrew Rasheed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SeanG7&#34; target=&#34;_blank&#34;&gt;Sean Gilmore&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Tuckmo&#34; target=&#34;_blank&#34;&gt;Mark Tuckey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/JunaidAhmad7&#34; target=&#34;_blank&#34;&gt;Junaid Ahmad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;app-overview-and-features&#34;&gt;App Overview and Features&lt;/h1&gt;
+
+&lt;h2 id=&#34;augproject&#34;&gt;AugProject&lt;/h2&gt;
+
+&lt;h3 id=&#34;documentation-presentation-outline&#34;&gt;Documentation &amp;amp; Presentation Outline&lt;/h3&gt;
+
+&lt;p&gt;The project is an interactive augmented reality treasure hunt application, which works completely on the web using only HTML, CSS and Javascript for cross-browser support.&lt;/p&gt;
+
+&lt;h3 id=&#34;main-goals-of-the-project&#34;&gt;Main Goals of the project:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Geolocation and finding of placed locations within a certain radius to the user&lt;/li&gt;
+&lt;li&gt;Accessibility for all devices - restrained us to web technologies rather than native app support.&lt;/li&gt;
+&lt;li&gt;Notifying a user when they are near one of our locations, and to be able read past locations they have found without going back to the location that they found&lt;/li&gt;
+&lt;li&gt;Database administration -&lt;/li&gt;
+&lt;li&gt;Admins without programming skill can manage the location data using more common skills like spreadsheets&lt;/li&gt;
+&lt;li&gt;User engagement to the application&lt;/li&gt;
+&lt;li&gt;Questions&lt;/li&gt;
+&lt;li&gt;Scores from finding locations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;overall-features&#34;&gt;Overall Features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dynamically locating the user and notifications when a target location&lt;/li&gt;
+&lt;li&gt;A dynamic updating user map using google maps&lt;/li&gt;
+&lt;li&gt;3D models displayed at each location with interactive elements&lt;/li&gt;
+&lt;li&gt;Interactive user questions&lt;/li&gt;
+&lt;li&gt;User tracking - ability to re-view found locations&lt;/li&gt;
+&lt;li&gt;Responsive design&lt;/li&gt;
+&lt;li&gt;Database administration using google maps&lt;/li&gt;
+&lt;li&gt;A nodejs backend to circumvent browser security features, implement api function calls and serve static pages.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;for-more-information-please-go-to-the&#34;&gt;For more information please go to the&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1TatdKQbOZ26Zei9HziNvGGAzITgXEiiBe7GpeWK96dk/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Documentation and Features&lt;/a&gt;,
+&lt;a href=&#34;https://github.com/andrewrd/augproject&#34; target=&#34;_blank&#34;&gt;Code Repository&lt;/a&gt;, or
+&lt;a href=&#34;https://docs.google.com/presentation/d/1pufZ__ZC1zZqgJfzzsaJFfi97H_cIe1riUIccszANQA/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Presentation&lt;/a&gt;
+&lt;a href=&#34;https://docs.google.com/presentation/d/1pufZ__ZC1zZqgJfzzsaJFfi97H_cIe1riUIccszANQA/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Presentation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Material Academic Theme</title>
-      <link>https://tuckmo.github.io/website/project/example-external-project/</link>
+      <link>https://tuckmo.github.io/website/project/material-academic-theme/</link>
       <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://tuckmo.github.io/website/project/example-external-project/</guid>
+      <guid>https://tuckmo.github.io/website/project/material-academic-theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COMP344 Catalogue Management Subsystem</title>
+      <link>https://tuckmo.github.io/website/project/catalogue-management-subsystem/</link>
+      <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuckmo.github.io/website/project/catalogue-management-subsystem/</guid>
       <description></description>
     </item>
     

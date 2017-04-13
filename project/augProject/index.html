@@ -8,7 +8,7 @@
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.19" />
   <meta name="author" content="Mark Tuckey">
-  <meta name="description" content="Bachelor of Information Technology - Web Design and Development">
+  <meta name="description" content="Graduate Bachelor of Information Technology - Web Design and Development">
 
   
   
@@ -63,15 +63,15 @@
 
           
           <li><a 
-                 href="/website/#posts" onclick="$('.button-collapse').sideNav('hide');"
-                  >
-            <span>Posts</span></a></li>
-
-          
-          <li><a 
                  href="/website/#projects" onclick="$('.button-collapse').sideNav('hide');"
                   >
             <span>Projects</span></a></li>
+
+          
+          <li><a 
+                 href="/website/#posts" onclick="$('.button-collapse').sideNav('hide');"
+                  >
+            <span>Posts</span></a></li>
 
           
           <li><a 
@@ -90,15 +90,15 @@
 
           
           <li><a 
-                 href="/website/#posts"
-                  onclick="$('.button-collapse').sideNav('hide');">
-            <span>Posts</span></a></li>
-
-          
-          <li><a 
                  href="/website/#projects"
                   onclick="$('.button-collapse').sideNav('hide');">
             <span>Projects</span></a></li>
+
+          
+          <li><a 
+                 href="/website/#posts"
+                  onclick="$('.button-collapse').sideNav('hide');">
+            <span>Posts</span></a></li>
 
           
           <li><a 
@@ -171,22 +171,80 @@
     
 
     <div class="article-style" itemprop="articleBody">
-      <p><img src="/website/img/Augproject.png" alt="Aug Project banner" /></p>
+      
+
+<p><img src="/website/img/Augproject.png" alt="Aug Project banner" /></p>
 
 <p>AugProject was a project that I contributed to during my capstone unit <a href="http://www.handbook.mq.edu.au/2017/Units/UGUnit/COMP356" target="_blank">COMP356</a> for my Bachelor of Information Technology at Macquarie University.</p>
+
+<p>The main goal of this project was to bring more awareness to the art located around Macquarie University by creating a augmented reality GPS tracking mobile application similar to Pokemon Go that allowed the users to visit art pieces and learn more about them inside a somewhat competitive game.</p>
+
+<p>The basic functionality of this project was to create a educational scavenger like hunt across Macquarie University using the browser on mobile phones using GPS to locate mapped locations, tracking which ones had been visited or not. Upon finding these locations map markers would be generated on the Google Map to interact with, with the ability to pull up more information about the artist and object you had found, answer a question on the object that had been found or view the 3d model for that object.</p>
+
+<p>Unfortunately the app will only work with the GPS coordinates that are currently in the Google Sheet which are all located around Macquarie University. The best way to get an idea of the app is to either look at the documentation below or the presentation that we made at the end of the project.</p>
 
 <p><a href="https://docs.google.com/document/d/1TatdKQbOZ26Zei9HziNvGGAzITgXEiiBe7GpeWK96dk/edit?usp=sharing" target="_blank">Main Documentation and features of the program</a></p>
 
 <p><a href="https://github.com/andrewrd/augproject" target="_blank">Code Repository</a></p>
 
-<p><a href="https://docs.google.com/presentation/d/1pufZ__ZC1zZqgJfzzsaJFfi97H_cIe1riUIccszANQA/edit?usp=sharing" target="_blank">Presentation</a></p>
+<p><a href="https://docs.google.com/presentation/d/1pufZ__ZC1zZqgJfzzsaJFfi97H_cIe1riUIccszANQA/edit?usp=sharing" target="_blank">Final Presentation</a></p>
+
+<p>App Contributors:</p>
+
+<ul>
+<li><a href="https://github.com/andrewrd" target="_blank">Andrew Rasheed</a></li>
+<li><a href="https://github.com/SeanG7" target="_blank">Sean Gilmore</a></li>
+<li><a href="https://github.com/Tuckmo" target="_blank">Mark Tuckey</a></li>
+<li><a href="https://github.com/JunaidAhmad7" target="_blank">Junaid Ahmad</a></li>
+</ul>
+
+<h1 id="app-overview-and-features">App Overview and Features</h1>
+
+<h2 id="augproject">AugProject</h2>
+
+<h3 id="documentation-presentation-outline">Documentation &amp; Presentation Outline</h3>
+
+<p>The project is an interactive augmented reality treasure hunt application, which works completely on the web using only HTML, CSS and Javascript for cross-browser support.</p>
+
+<h3 id="main-goals-of-the-project">Main Goals of the project:</h3>
+
+<ul>
+<li>Geolocation and finding of placed locations within a certain radius to the user</li>
+<li>Accessibility for all devices - restrained us to web technologies rather than native app support.</li>
+<li>Notifying a user when they are near one of our locations, and to be able read past locations they have found without going back to the location that they found</li>
+<li>Database administration -</li>
+<li>Admins without programming skill can manage the location data using more common skills like spreadsheets</li>
+<li>User engagement to the application</li>
+<li>Questions</li>
+<li>Scores from finding locations</li>
+</ul>
+
+<h3 id="overall-features">Overall Features</h3>
+
+<ul>
+<li>Dynamically locating the user and notifications when a target location</li>
+<li>A dynamic updating user map using google maps</li>
+<li>3D models displayed at each location with interactive elements</li>
+<li>Interactive user questions</li>
+<li>User tracking - ability to re-view found locations</li>
+<li>Responsive design</li>
+<li>Database administration using google maps</li>
+<li>A nodejs backend to circumvent browser security features, implement api function calls and serve static pages.</li>
+</ul>
+
+<h2 id="for-more-information-please-go-to-the">For more information please go to the</h2>
+
+<p><a href="https://docs.google.com/document/d/1TatdKQbOZ26Zei9HziNvGGAzITgXEiiBe7GpeWK96dk/edit?usp=sharing" target="_blank">Documentation and Features</a>,
+<a href="https://github.com/andrewrd/augproject" target="_blank">Code Repository</a>, or
+<a href="https://docs.google.com/presentation/d/1pufZ__ZC1zZqgJfzzsaJFfi97H_cIe1riUIccszANQA/edit?usp=sharing" target="_blank">Presentation</a>
+<a href="https://docs.google.com/presentation/d/1pufZ__ZC1zZqgJfzzsaJFfi97H_cIe1riUIccszANQA/edit?usp=sharing" target="_blank">Presentation</a></p>
 
     </div>
 
     <nav class="blue">
   <ul class="pager full-button">
     
-    <li class="previous"><a href="https://tuckmo.github.io/website/project/example-external-project/"><span
+    <li class="previous"><a href="https://tuckmo.github.io/website/project/material-academic-theme/"><span
       aria-hidden="true">&larr;</span> Material Academic Theme</a></li>
     
 
